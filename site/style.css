@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Alkatra', cursive;
+}
+header,
+footer {
+background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    padding: 10px;
+}
+ul {
+    list-style: none;
+}
+main {
+    padding: 10px;
+    background-color: silver;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-column {
+    flex: 50%;
+    margin: 20px;
+}
+
+.comment {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.author {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#sub-comment {
+    margin-left: 40px;
+}
+
+#menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+#menu1 ul {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+#menu1>ul::after {
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+
+#menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#menu1 ul li a {
+    display: block;
+        padding: 9px 25px 0px 25px;
+        font-size: 40px;
+        line-height: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        color: rgb(0, 217, 255);
+}
+
+#menu1 ul li ul {
+    position: absolute;
+        top: 36px;
+        left: 0px;
+        display: none;
+        width: 350px;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#menu1 ul li:hover ul {
+    display: block;
+}
+
+#menu1 ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu1 ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+}
+
+#menu1 ul li ul li:first-child a {
+    border-top: 0px;
+}
+
+
+
+.description{
+    color: rgb(255, 217, 0);
+    background: #ff0000;
+    font-size: 25px;
+}
+h1 {
+    font-size: 70px;
+    margin: 1px;
+}
+
+h1:hover {
+    color: rgb(0, 81, 255);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+.carousele {
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.carousele div img {
+width: 400px;
+    height: 200px;
+}
+
+.description {
+    font-size: 25px;
+    padding: 15px;
+    color: #000000;
+        background: #FFFFFF;
+        text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+
+.Our-client {
+    padding: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding: 50px;
+}
+ .boxes{
+    margin-right: 20px;
+ margin-bottom: 30px;
+ margin-top: 30px;
+ margin-left: 10px;
+ width: 360px;
+ height: 400px;
+ background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 171, 0, 1) 10%, rgba(255, 171, 0, 1) 20%, rgba(255, 0, 0, 1) 35%, rgba(255, 252, 0, 1) 50%, rgba(255, 0, 0, 1) 65%, rgba(255, 171, 0, 1) 80%, rgba(255, 171, 0, 1) 90%, rgba(255, 0, 0, 1) 100%);
+-webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #3c3d3c, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+ box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #3c3d3c, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+ }
+ .pets-food{
+    font-size: 35px;
+    font-weight: bolt;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+ }
+
+ .photo-food{
+    width:250px;
+    height: 300px;
+    padding-left: 60px;
+    padding-right: 40px;
+ }
+
+.photo-food:hover{
+    border-radius: 50%;
+        transition: all 0.3s ease 0s;
+}
+
+ h3{
+    font-size: 40px;
+
+ }
+ .foods{
+    background: rgb(255, 0, 202);
+        background: linear-gradient(90deg, rgba(255, 0, 202, 1) 7%, rgba(0, 212, 255, 1) 30%, rgba(0, 255, 214, 1) 40%, rgba(102, 0, 255, 1) 50%, rgba(0, 255, 248, 1) 60%, rgba(0, 255, 215, 1) 70%, rgba(255, 0, 194, 1) 93%);
+ }
+ h2{
+    background: #0026ff;
+    font-size: 35px;
+ }
+  
+ .poor-animals{
+    width: 400px;
+    height: 200px;
+ }
+
+ .logo-main{
+    width: 150;
+        height: 150px;
+ }
+ .logo-main:hover{
+    border-radius: 50%;
+        transition: all 0.3s ease 0s;
+ }
+ .post1{
+    background: #807c7c;
+    border-radius: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 20px;
+ }
+ p{
+    color: #232323;
+ }

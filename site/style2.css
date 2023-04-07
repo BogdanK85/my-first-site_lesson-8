@@ -1,0 +1,74 @@
+body{
+    background: rgb(255, 0, 202);
+        background: linear-gradient(90deg, rgba(255, 0, 202, 1) 7%, rgba(0, 212, 255, 1) 30%, rgba(0, 255, 214, 1) 40%, rgba(102, 0, 255, 1) 50%, rgba(0, 255, 248, 1) 60%, rgba(0, 255, 215, 1) 70%, rgba(255, 0, 194, 1) 93%);
+}
+.Our-client {
+    padding: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+ul {
+    list-style: none;
+}
+
+h1{
+    font-size: 35px;
+    margin: 0;
+}
+
+h1:hover {
+    color: rgb(136, 255, 0);
+    transition: all 0.3s ease 0s;
+    font-size: 50px;
+}
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding: 50px;
+}
+
+.boxes {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 1000px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 171, 0, 1) 10%, rgba(255, 171, 0, 1) 20%, rgba(255, 0, 0, 1) 35%, rgba(255, 252, 0, 1) 50%, rgba(255, 0, 0, 1) 65%, rgba(255, 171, 0, 1) 80%, rgba(255, 171, 0, 1) 90%, rgba(255, 0, 0, 1) 100%);
+    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #3c3d3c, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #3c3d3c, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+.pets-food {
+    font-size: 35px;
+    font-weight: bolt;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.about-food {
+    text-align: center;
+}
+
+.photo-food {
+    width: 700px;
+    height: 500px;
+    
+}
+
+.photo-food:hover {
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.client1{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
