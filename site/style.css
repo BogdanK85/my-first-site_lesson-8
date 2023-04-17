@@ -10,6 +10,19 @@ background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     padding: 10px;
 }
+
+
+footer:hover{
+    background: rgb(255, 0, 202);
+    transition: all 3s ease 2s;
+    background: linear-gradient(90deg, rgba(255, 0, 202, 1) 7%, rgba(0, 212, 255, 1) 30%, rgba(0, 255, 214, 1) 40%, rgba(102, 0, 255, 1) 50%, rgba(0, 255, 248, 1) 60%, rgba(0, 255, 215, 1) 70%, rgba(255, 0, 194, 1) 93%);
+}
+
+header:hover{
+    background: rgb(255, 0, 202);
+    background: linear-gradient(90deg, rgba(255, 0, 202, 1) 7%, rgba(0, 212, 255, 1) 30%, rgba(0, 255, 214, 1) 40%, rgba(102, 0, 255, 1) 50%, rgba(0, 255, 248, 1) 60%, rgba(0, 255, 215, 1) 70%, rgba(255, 0, 194, 1) 93%);
+}
+
 ul {
     list-style: none;
 }
@@ -102,7 +115,7 @@ main {
         font-weight: bold;
         text-transform: uppercase;
         box-sizing: border-box;
-        color: rgb(0, 217, 255);
+        color: rgb(60, 255, 0);
 }
 
 #menu1 ul li ul {
@@ -171,7 +184,7 @@ width: 400px;
 }
 
 .description {
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
     color: #000000;
         background: #FFFFFF;
@@ -225,7 +238,7 @@ width: 400px;
 
  h3{
     font-size: 40px;
-
+padding: 15px;
  }
  .foods{
     background: rgb(255, 0, 202);
@@ -258,4 +271,21 @@ width: 400px;
  }
  p{
     color: #232323;
+ }
+
+
+ .volonters{
+    font-size: 15px;
+    padding: 15px;
+ }
+.volonters:hover{
+font-size: 30px;
+color: rgb(30, 255, 0);
+}
+ .post123{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 171, 0, 1) 10%, rgba(255, 171, 0, 1) 20%, rgba(255, 0, 0, 1) 35%, rgba(255, 252, 0, 1) 50%, rgba(255, 0, 0, 1) 65%, rgba(255, 171, 0, 1) 80%, rgba(255, 171, 0, 1) 90%, rgba(255, 0, 0, 1) 100%);
+ }
+ a{
+    padding: 15px;
  }
